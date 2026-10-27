@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A tribute to Nelson Mandela, his life, achievements and legacy of freedom.">
+    <title>Nelson Mandela | Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Madiba<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">Biography</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#legacy">Legacy</a>
+            </div>
+
+            <button class="theme-toggle" id="themeToggle"
+                aria-label="Switch to dark mode">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">A LIFE THAT CHANGED HISTORY</p>
+                <h1>Nelson <span>Mandela</span></h1>
+                <p class="hero-subtitle">
+                    A leader. A freedom fighter. A symbol of hope.
+                </p>
+                <p class="hero-description">
+                    Celebrating the extraordinary life of a man who
+                    dedicated himself to freedom, equality and peace.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        Discover His Story
+                    </a>
+                    <a href="#achievements" class="btn btn-outline">
+                        His Achievements
+                    </a>
+                </div>
+
+                <p class="hero-dates">18 July 1918 — 5 December 2013</p>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Nelson_Mandela_1994.jpg"
+                    alt="Portrait of Nelson Mandela"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+
+                <div class="image-fallback" aria-hidden="true">
+                    <span>NM</span>
+                    <p>Nelson Mandela</p>
+                </div>
+                <div class="image-caption">Madiba • A legacy of hope</div>
+            </div>
+        </section>
+
+        <section class="intro-strip">
+            <div>
+                <strong>1918</strong>
+                <span>Born in South Africa</span>
+            </div>
+            <div>
+                <strong>1990</strong>
+                <span>Released from prison</span>
+            </div>
+            <div>
+                <strong>1993</strong>
+                <span>Nobel Peace Prize</span>
+            </div>
+            <div>
+                <strong>1994</strong>
+                <span>President of South Africa</span>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">HIS LIFE STORY</p>
+                <h2>A Journey of Courage</h2>
+                <p>From a village in the Eastern Cape to the presidency.</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-mark">M</div>
+                <div>
+                    <h3>Who Was Nelson Mandela?</h3>
+                    <p>
+                        Nelson Rolihlahla Mandela was born on 18 July 1918
+                        in Mvezo, South Africa. Known affectionately as
+                        Madiba, he became one of the world's most respected
+                        leaders in the fight against apartheid, a system
+                        of racial segregation and discrimination.
+                    </p>
+                    <p>
+                        Mandela studied law and became involved in the
+                        African National Congress (ANC). He worked for
+                        a democratic society where people could enjoy
+                        equal rights regardless of race.
+                    </p>
+                    <p>
+                        His struggle for freedom led to more than
+                        27 years in prison. After his release in 1990,
+                        he helped negotiate the end of apartheid and
+                        encouraged reconciliation among South Africans.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section timeline-section" id="timeline">
+            <div class="section-heading">
+                <p class="eyebrow">IMPORTANT MOMENTS</p>
+                <h2>His Life Through Time</h2>
+                <p>Explore the milestones that shaped his journey.</p>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <span class="timeline-year">1918</span>
+                    <div class="timeline-card">
+                        <h3>A New Life Begins</h3>
+                        <p>
+                            Mandela was born in Mvezo, in South Africa's
+                            Eastern Cape, on 18 July.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-year">1944</span>
+                    <div class="timeline-card">
+                        <h3>Joined the Freedom Struggle</h3>
+                        <p>
+                            He helped establish the ANC Youth League,
+                            working for political and social change.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-year">1964</span>
+                    <div class="timeline-card">
+                        <h3>Sentenced to Life Imprisonment</h3>
+                        <p>
+                            During the Rivonia Trial, Mandela was
+                            sentenced to life imprisonment for his role
+                            in the struggle against apartheid.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-year">1990</span>
+                    <div class="timeline-card">
+                        <h3>Freedom at Last</h3>
+                        <p>
+                            He was released from prison on 11 February
+                            after more than 27 years in captivity.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-year">1993</span>
+                    <div class="timeline-card">
+                        <h3>Nobel Peace Prize</h3>
+                        <p>
+                            Mandela and F. W. de Klerk received the
+                            Nobel Peace Prize for their work toward
+                            peacefully ending apartheid.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-year">1994</span>
+                    <div class="timeline-card">
+                        <h3>Made History</h3>
+                        <p>
+                            Mandela became South Africa's first
+                            democratically elected president on
+                            10 May 1994.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-year">2013</span>
+                    <div class="timeline-card">
+                        <h3>A Lasting Legacy</h3>
+                        <p>
+                            Mandela died on 5 December, aged 95.
+                            His example continues to inspire people
+                            around the world.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="achievements">
+            <div class="section-heading">
+                <p class="eyebrow">A REMARKABLE LEGACY</p>
+                <h2>His Greatest Achievements</h2>
+                <p>Some of the contributions that made history.</p>
+            </div>
+
+            <div class="achievement-grid">
+                <article class="achievement-card">
+                    <span class="achievement-icon">⚖️</span>
+                    <h3>Fought Apartheid</h3>
+                    <p>
+                        Dedicated much of his life to challenging racial
+                        discrimination and fighting for equal rights.
+                    </p>
+                </article>
+
+                <article class="achievement-card">
+                    <span class="achievement-icon">🕊️</span>
+                    <h3>Promoted Reconciliation</h3>
+                    <p>
+                        Supported dialogue and reconciliation to help
+                        unite a country divided by racial injustice.
+                    </p>
+                </article>
+
+                <article class="achievement-card">
+                    <span class="achievement-icon">🏅</span>
+                    <h3>Nobel Peace Prize</h3>
+                    <p>
+                        Received the 1993 Nobel Peace Prize jointly
+                        with F. W. de Klerk.
+                    </p>
+                </article>
+
+                <article class="achievement-card">
+                    <span class="achievement-icon">🏛️</span>
+                    <h3>Democratic President</h3>
+                    <p>
+                        Led South Africa as its first democratically
+                        elected president from 1994 to 1999.
+                    </p>
+                </article>
+
+                <article class="achievement-card">
+                    <span class="achievement-icon">📚</span>
+                    <h3>Inspired Through Learning</h3>
+                    <p>
+                        His life and autobiography, Long Walk to Freedom,
+                        continue to educate and inspire readers.
+                    </p>
+                </article>
+
+                <article class="achievement-card">
+                    <span class="achievement-icon">❤️</span>
+                    <h3>Served Communities</h3>
+                    <p>
+                        Supported children's welfare, education,
+                        human dignity and community development.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="quote-section" id="legacy">
+            <p class="eyebrow">THE MADIBA LEGACY</p>
+            <h2>His Legacy Lives On</h2>
+            <p class="quote-text">
+                “It always seems impossible until it's done.”
+            </p>
+            <p class="quote-author">— Nelson Mandela</p>
+
+            <button class="btn btn-light" id="messageButton">
+                Discover His Message ✨
+            </button>
+
+            <p id="inspiringMessage" class="inspiring-message" hidden>
+                Let Mandela's life remind us to stand up for fairness,
+                respect others, value education, and work together
+                to build a more equal world.
+            </p>
+        </section>
+
+        <section class="section reflection">
+            <div class="section-heading">
+                <p class="eyebrow">A LESSON FOR EVERY GENERATION</p>
+                <h2>What We Can Learn</h2>
+            </div>
+            <div class="lesson-list">
+                <p><span>01</span> Courage to stand up for what is right.</p>
+                <p><span>02</span> Respect for every person's dignity.</p>
+                <p><span>03</span> Patience and perseverance through challenges.</p>
+                <p><span>04</span> The importance of peace, justice and unity.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">Madiba<span>.</span></a>
+        <p>A tribute to a life dedicated to freedom and equality.</p>
+        <p>Created with respect and admiration.</p>
+        <p>© <span id="year"></span> Nelson Mandela Tribute Page</p>
+        <a class="source-link"
+           href="https://www.nelsonmandela.org/biography"
+           target="_blank" rel="noopener noreferrer">
+            Learn more from the Nelson Mandela Foundation
+        </a>
+    </footer>
+
+    <button id="backToTop" class="back-to-top"
+        aria-label="Back to top" title="Back to top">↑</button>
+</body>
+</html>
